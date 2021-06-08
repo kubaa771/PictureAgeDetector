@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		627669A58537BDDAFC60E2E3 /* Pods_PictureAgeDetectorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E21200B86D39720B725B02A1 /* Pods_PictureAgeDetectorTests.framework */; };
+		879461E7E39780696C69C1E9 /* Pods_PictureAgeDetector_PictureAgeDetectorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9536D2710693E9444474A08 /* Pods_PictureAgeDetector_PictureAgeDetectorUITests.framework */; };
 		8A748782266A635600556F41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A748781266A635600556F41 /* AppDelegate.swift */; };
 		8A748784266A635600556F41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A748783266A635600556F41 /* SceneDelegate.swift */; };
 		8A748786266A635600556F41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A748785266A635600556F41 /* ViewController.swift */; };
@@ -15,6 +17,10 @@
 		8A74878E266A635A00556F41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A74878C266A635A00556F41 /* LaunchScreen.storyboard */; };
 		8A748799266A635A00556F41 /* PictureAgeDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A748798266A635A00556F41 /* PictureAgeDetectorTests.swift */; };
 		8A7487A4266A635A00556F41 /* PictureAgeDetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7487A3266A635A00556F41 /* PictureAgeDetectorUITests.swift */; };
+		8A7487B5266A6E5B00556F41 /* AgeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8A7487B4266A6E5B00556F41 /* AgeNet.mlmodel */; };
+		8A7487B6266A6E5B00556F41 /* AgeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8A7487B4266A6E5B00556F41 /* AgeNet.mlmodel */; };
+		8A7487B7266A6E5B00556F41 /* AgeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8A7487B4266A6E5B00556F41 /* AgeNet.mlmodel */; };
+		F821D0CA10A6F81DF910B7D1 /* Pods_PictureAgeDetector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A205FEA7C340A7DB364954DD /* Pods_PictureAgeDetector.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		203E085F4B22978769C237CD /* Pods-PictureAgeDetector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictureAgeDetector.debug.xcconfig"; path = "Target Support Files/Pods-PictureAgeDetector/Pods-PictureAgeDetector.debug.xcconfig"; sourceTree = "<group>"; };
+		3F3E2AAF60764E56B498D577 /* Pods-PictureAgeDetector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictureAgeDetector.release.xcconfig"; path = "Target Support Files/Pods-PictureAgeDetector/Pods-PictureAgeDetector.release.xcconfig"; sourceTree = "<group>"; };
+		77254CFF30AE811524E2A8E9 /* Pods-PictureAgeDetector-PictureAgeDetectorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictureAgeDetector-PictureAgeDetectorUITests.release.xcconfig"; path = "Target Support Files/Pods-PictureAgeDetector-PictureAgeDetectorUITests/Pods-PictureAgeDetector-PictureAgeDetectorUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8A74877E266A635600556F41 /* PictureAgeDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictureAgeDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A748781266A635600556F41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A748783266A635600556F41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,13 @@
 		8A74879F266A635A00556F41 /* PictureAgeDetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictureAgeDetectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A7487A3266A635A00556F41 /* PictureAgeDetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureAgeDetectorUITests.swift; sourceTree = "<group>"; };
 		8A7487A5266A635A00556F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A7487B4266A6E5B00556F41 /* AgeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AgeNet.mlmodel; sourceTree = "<group>"; };
+		995A32D088D180DD70D79BA6 /* Pods-PictureAgeDetectorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictureAgeDetectorTests.debug.xcconfig"; path = "Target Support Files/Pods-PictureAgeDetectorTests/Pods-PictureAgeDetectorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A205FEA7C340A7DB364954DD /* Pods_PictureAgeDetector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PictureAgeDetector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9536D2710693E9444474A08 /* Pods_PictureAgeDetector_PictureAgeDetectorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PictureAgeDetector_PictureAgeDetectorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B92DDC5D2BEC647CB09B1883 /* Pods-PictureAgeDetector-PictureAgeDetectorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictureAgeDetector-PictureAgeDetectorUITests.debug.xcconfig"; path = "Target Support Files/Pods-PictureAgeDetector-PictureAgeDetectorUITests/Pods-PictureAgeDetector-PictureAgeDetectorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E21200B86D39720B725B02A1 /* Pods_PictureAgeDetectorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PictureAgeDetectorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5587C86DA6CC7DB9701AAF1 /* Pods-PictureAgeDetectorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictureAgeDetectorTests.release.xcconfig"; path = "Target Support Files/Pods-PictureAgeDetectorTests/Pods-PictureAgeDetectorTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F821D0CA10A6F81DF910B7D1 /* Pods_PictureAgeDetector.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				627669A58537BDDAFC60E2E3 /* Pods_PictureAgeDetectorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				879461E7E39780696C69C1E9 /* Pods_PictureAgeDetector_PictureAgeDetectorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +102,8 @@
 				8A748797266A635A00556F41 /* PictureAgeDetectorTests */,
 				8A7487A2266A635A00556F41 /* PictureAgeDetectorUITests */,
 				8A74877F266A635600556F41 /* Products */,
+				96D82DE6BE0820BFF2B8859B /* Pods */,
+				E94E26172BF0D89AE1B12889 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +127,7 @@
 				8A74878A266A635A00556F41 /* Assets.xcassets */,
 				8A74878C266A635A00556F41 /* LaunchScreen.storyboard */,
 				8A74878F266A635A00556F41 /* Info.plist */,
+				8A7487B4266A6E5B00556F41 /* AgeNet.mlmodel */,
 			);
 			path = PictureAgeDetector;
 			sourceTree = "<group>";
@@ -128,6 +150,29 @@
 			path = PictureAgeDetectorUITests;
 			sourceTree = "<group>";
 		};
+		96D82DE6BE0820BFF2B8859B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				203E085F4B22978769C237CD /* Pods-PictureAgeDetector.debug.xcconfig */,
+				3F3E2AAF60764E56B498D577 /* Pods-PictureAgeDetector.release.xcconfig */,
+				B92DDC5D2BEC647CB09B1883 /* Pods-PictureAgeDetector-PictureAgeDetectorUITests.debug.xcconfig */,
+				77254CFF30AE811524E2A8E9 /* Pods-PictureAgeDetector-PictureAgeDetectorUITests.release.xcconfig */,
+				995A32D088D180DD70D79BA6 /* Pods-PictureAgeDetectorTests.debug.xcconfig */,
+				F5587C86DA6CC7DB9701AAF1 /* Pods-PictureAgeDetectorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E94E26172BF0D89AE1B12889 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A205FEA7C340A7DB364954DD /* Pods_PictureAgeDetector.framework */,
+				A9536D2710693E9444474A08 /* Pods_PictureAgeDetector_PictureAgeDetectorUITests.framework */,
+				E21200B86D39720B725B02A1 /* Pods_PictureAgeDetectorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A7487A8266A635A00556F41 /* Build configuration list for PBXNativeTarget "PictureAgeDetector" */;
 			buildPhases = (
+				CE7F286C723DD96C181D452C /* [CP] Check Pods Manifest.lock */,
 				8A74877A266A635600556F41 /* Sources */,
 				8A74877B266A635600556F41 /* Frameworks */,
 				8A74877C266A635600556F41 /* Resources */,
+				A8D3951F914A97709F9E7787 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A7487AB266A635A00556F41 /* Build configuration list for PBXNativeTarget "PictureAgeDetectorTests" */;
 			buildPhases = (
+				D197A326830CCA77587C5A5F /* [CP] Check Pods Manifest.lock */,
 				8A748790266A635A00556F41 /* Sources */,
 				8A748791266A635A00556F41 /* Frameworks */,
 				8A748792266A635A00556F41 /* Resources */,
@@ -170,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A7487AE266A635A00556F41 /* Build configuration list for PBXNativeTarget "PictureAgeDetectorUITests" */;
 			buildPhases = (
+				CA9A5215F2D94C0BC2A4BA35 /* [CP] Check Pods Manifest.lock */,
 				8A74879B266A635A00556F41 /* Sources */,
 				8A74879C266A635A00556F41 /* Frameworks */,
 				8A74879D266A635A00556F41 /* Resources */,
+				63F7C0E98C5463A7D2751E04 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +303,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		63F7C0E98C5463A7D2751E04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PictureAgeDetector-PictureAgeDetectorUITests/Pods-PictureAgeDetector-PictureAgeDetectorUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PictureAgeDetector-PictureAgeDetectorUITests/Pods-PictureAgeDetector-PictureAgeDetectorUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PictureAgeDetector-PictureAgeDetectorUITests/Pods-PictureAgeDetector-PictureAgeDetectorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8D3951F914A97709F9E7787 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PictureAgeDetector/Pods-PictureAgeDetector-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PictureAgeDetector/Pods-PictureAgeDetector-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PictureAgeDetector/Pods-PictureAgeDetector-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA9A5215F2D94C0BC2A4BA35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PictureAgeDetector-PictureAgeDetectorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE7F286C723DD96C181D452C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PictureAgeDetector-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D197A326830CCA77587C5A5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PictureAgeDetectorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8A74877A266A635600556F41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,6 +413,7 @@
 			files = (
 				8A748786266A635600556F41 /* ViewController.swift in Sources */,
 				8A748782266A635600556F41 /* AppDelegate.swift in Sources */,
+				8A7487B5266A6E5B00556F41 /* AgeNet.mlmodel in Sources */,
 				8A748784266A635600556F41 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +422,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A7487B6266A6E5B00556F41 /* AgeNet.mlmodel in Sources */,
 				8A748799266A635A00556F41 /* PictureAgeDetectorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +431,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A7487B7266A6E5B00556F41 /* AgeNet.mlmodel in Sources */,
 				8A7487A4266A635A00556F41 /* PictureAgeDetectorUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +589,7 @@
 		};
 		8A7487A9266A635A00556F41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 203E085F4B22978769C237CD /* Pods-PictureAgeDetector.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +609,7 @@
 		};
 		8A7487AA266A635A00556F41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F3E2AAF60764E56B498D577 /* Pods-PictureAgeDetector.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +629,7 @@
 		};
 		8A7487AC266A635A00556F41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 995A32D088D180DD70D79BA6 /* Pods-PictureAgeDetectorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +652,7 @@
 		};
 		8A7487AD266A635A00556F41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5587C86DA6CC7DB9701AAF1 /* Pods-PictureAgeDetectorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +675,7 @@
 		};
 		8A7487AF266A635A00556F41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B92DDC5D2BEC647CB09B1883 /* Pods-PictureAgeDetector-PictureAgeDetectorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +696,7 @@
 		};
 		8A7487B0266A635A00556F41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77254CFF30AE811524E2A8E9 /* Pods-PictureAgeDetector-PictureAgeDetectorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
