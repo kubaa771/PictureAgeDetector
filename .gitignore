@@ -1,0 +1,55 @@
+Podfile.lock
+PictureAgeDetector.xcodeproj/xcuserdata/jakubiwaszek.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+PictureAgeDetector.xcworkspace/contents.xcworkspacedata
+PictureAgeDetector.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+Pods/Manifest.lock
+Pods/FaceCropper/LICENSE
+Pods/FaceCropper/README.md
+Pods/FaceCropper/FaceCropper/Classes/FaceCropper.swift
+Pods/Pods.xcodeproj/project.pbxproj
+Pods/Pods.xcodeproj/xcuserdata/jakubiwaszek.xcuserdatad/xcschemes/FaceCropper.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/jakubiwaszek.xcuserdatad/xcschemes/Pods-PictureAgeDetector-PictureAgeDetectorUITests.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/jakubiwaszek.xcuserdatad/xcschemes/Pods-PictureAgeDetector.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/jakubiwaszek.xcuserdatad/xcschemes/Pods-PictureAgeDetectorTests.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/jakubiwaszek.xcuserdatad/xcschemes/xcschememanagement.plist
+Pods/Target Support Files/FaceCropper/FaceCropper-dummy.m
+Pods/Target Support Files/FaceCropper/FaceCropper-Info.plist
+Pods/Target Support Files/FaceCropper/FaceCropper-prefix.pch
+Pods/Target Support Files/FaceCropper/FaceCropper-umbrella.h
+Pods/Target Support Files/FaceCropper/FaceCropper.debug.xcconfig
+Pods/Target Support Files/FaceCropper/FaceCropper.modulemap
+Pods/Target Support Files/FaceCropper/FaceCropper.release.xcconfig
+Pods/Target Support Files/Pods-PictureAgeDetector/Pods-PictureAgeDetector-acknowledgements.markdown
+Pods/Target Support Files/Pods-PictureAgeDetector/Pods-PictureAgeDetector-acknowledgements.plist
+Pods/Target Support Files/Pods-PictureAgeDetector/Pods-PictureAgeDetector-dummy.m
+Pods/Target Support Files/Pods-PictureAgeDetector/Pods-PictureAgeDetector-frameworks-Debug-input-files.xcfilelist
+Pods/Target Support Files/Pods-PictureAgeDetector/Pods-PictureAgeDetector-frameworks-Debug-output-files.xcfilelist
+Pods/Target Support Files/Pods-PictureAgeDetector/Pods-PictureAgeDetector-frameworks-Release-input-files.xcfilelist
+Pods/Target Support Files/Pods-PictureAgeDetector/Pods-PictureAgeDetector-frameworks-Release-output-files.xcfilelist
+Pods/Target Support Files/Pods-PictureAgeDetector/Pods-PictureAgeDetector-frameworks.sh
+Pods/Target Support Files/Pods-PictureAgeDetector/Pods-PictureAgeDetector-Info.plist
+Pods/Target Support Files/Pods-PictureAgeDetector/Pods-PictureAgeDetector-umbrella.h
+Pods/Target Support Files/Pods-PictureAgeDetector/Pods-PictureAgeDetector.debug.xcconfig
+Pods/Target Support Files/Pods-PictureAgeDetector/Pods-PictureAgeDetector.modulemap
+Pods/Target Support Files/Pods-PictureAgeDetector/Pods-PictureAgeDetector.release.xcconfig
+Pods/Target Support Files/Pods-PictureAgeDetector-PictureAgeDetectorUITests/Pods-PictureAgeDetector-PictureAgeDetectorUITests-acknowledgements.markdown
+Pods/Target Support Files/Pods-PictureAgeDetector-PictureAgeDetectorUITests/Pods-PictureAgeDetector-PictureAgeDetectorUITests-acknowledgements.plist
+Pods/Target Support Files/Pods-PictureAgeDetector-PictureAgeDetectorUITests/Pods-PictureAgeDetector-PictureAgeDetectorUITests-dummy.m
+Pods/Target Support Files/Pods-PictureAgeDetector-PictureAgeDetectorUITests/Pods-PictureAgeDetector-PictureAgeDetectorUITests-frameworks-Debug-input-files.xcfilelist
+Pods/Target Support Files/Pods-PictureAgeDetector-PictureAgeDetectorUITests/Pods-PictureAgeDetector-PictureAgeDetectorUITests-frameworks-Debug-output-files.xcfilelist
+Pods/Target Support Files/Pods-PictureAgeDetector-PictureAgeDetectorUITests/Pods-PictureAgeDetector-PictureAgeDetectorUITests-frameworks-Release-input-files.xcfilelist
+Pods/Target Support Files/Pods-PictureAgeDetector-PictureAgeDetectorUITests/Pods-PictureAgeDetector-PictureAgeDetectorUITests-frameworks-Release-output-files.xcfilelist
+Pods/Target Support Files/Pods-PictureAgeDetector-PictureAgeDetectorUITests/Pods-PictureAgeDetector-PictureAgeDetectorUITests-frameworks.sh
+Pods/Target Support Files/Pods-PictureAgeDetector-PictureAgeDetectorUITests/Pods-PictureAgeDetector-PictureAgeDetectorUITests-Info.plist
+Pods/Target Support Files/Pods-PictureAgeDetector-PictureAgeDetectorUITests/Pods-PictureAgeDetector-PictureAgeDetectorUITests-umbrella.h
+Pods/Target Support Files/Pods-PictureAgeDetector-PictureAgeDetectorUITests/Pods-PictureAgeDetector-PictureAgeDetectorUITests.debug.xcconfig
+Pods/Target Support Files/Pods-PictureAgeDetector-PictureAgeDetectorUITests/Pods-PictureAgeDetector-PictureAgeDetectorUITests.modulemap
+Pods/Target Support Files/Pods-PictureAgeDetector-PictureAgeDetectorUITests/Pods-PictureAgeDetector-PictureAgeDetectorUITests.release.xcconfig
+Pods/Target Support Files/Pods-PictureAgeDetectorTests/Pods-PictureAgeDetectorTests-acknowledgements.markdown
+Pods/Target Support Files/Pods-PictureAgeDetectorTests/Pods-PictureAgeDetectorTests-acknowledgements.plist
+Pods/Target Support Files/Pods-PictureAgeDetectorTests/Pods-PictureAgeDetectorTests-dummy.m
+Pods/Target Support Files/Pods-PictureAgeDetectorTests/Pods-PictureAgeDetectorTests-Info.plist
+Pods/Target Support Files/Pods-PictureAgeDetectorTests/Pods-PictureAgeDetectorTests-umbrella.h
+Pods/Target Support Files/Pods-PictureAgeDetectorTests/Pods-PictureAgeDetectorTests.debug.xcconfig
+Pods/Target Support Files/Pods-PictureAgeDetectorTests/Pods-PictureAgeDetectorTests.modulemap
+Pods/Target Support Files/Pods-PictureAgeDetectorTests/Pods-PictureAgeDetectorTests.release.xcconfig
