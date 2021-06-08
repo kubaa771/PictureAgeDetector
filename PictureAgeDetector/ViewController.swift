@@ -74,36 +74,6 @@ class ViewController: UIViewController {
         }
     }
     
-    /*func detectPeople(image: UIImage) {
-        let request = VNDetectFaceRectanglesRequest { (req, error) in
-            guard error == nil else {
-                print(error!.localizedDescription)
-                return
-            }
-            DispatchQueue.main.async { [self] in
-                if let results = req.results as? [VNFaceObservation]{
-                    self.infoLabel.text = "Number of people: \(results.count)"
-                    for result in results {
-                        let tempImage = image
-                        let face = tempImage.cgImage?.cropping(to: result.boundingBox)
-                        detectAge(image: face!)
-                    }
-                }
-            }
-        }
-        
-        
-        
-        DispatchQueue.global(qos: .userInteractive).async {
-            let handler = VNImageRequestHandler(cgImage: image.cgImage!, orientation: self.convertImageOrientation(orientation: image.imageOrientation))
-            do {
-                try handler.perform([request])
-            } catch let requestError{
-                print(requestError.localizedDescription)
-            }
-        }
-    }*/
-    
     func detectAge(image: CGImage) {
         guard let model = try? VNCoreMLModel(for: AgeNet().model) else {
             print("model couldnt be loaded")
