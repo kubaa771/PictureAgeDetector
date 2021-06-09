@@ -69,20 +69,20 @@ class ViewController: UIViewController {
             case .notFound:
                 self.infoLabel.text = "No faces detected."
             case .failure(let error):
-                print(error.localizedDescription)
+                self.showAlert(title: "Error", message: error.localizedDescription)
             }
         }
     }
     
     func detectAge(image: CGImage) {
         guard let model = try? VNCoreMLModel(for: AgeNet().model) else {
-            print("model couldnt be loaded")
+            self.showAlert(title: "Error", message: "Model couldn't be loaded")
             return
         }
         
         let request = VNCoreMLRequest(model: model) { (req, error) in
             guard error == nil else {
-                print(error!.localizedDescription)
+                self.showAlert(title: "Error", message: error!.localizedDescription)
                 return
             }
             
@@ -108,7 +108,7 @@ class ViewController: UIViewController {
             do {
                 try handler.perform([request])
             } catch let requestError{
-                print(requestError.localizedDescription)
+                self.showAlert(title: "Error", message: requestError.localizedDescription)
             }
         }
     }
